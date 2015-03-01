@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C118EDD9-F653-458C-852F-6AA0AE287EDE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NetEaseNew-Swift</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E5104D8EC5E03E6232CA39EAE790CF11D428A05B</key>
+		<string>github.com:wangshiyu13/NetEaseNews-Swift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NetEaseNew-Swift.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E5104D8EC5E03E6232CA39EAE790CF11D428A05B</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:wangshiyu13/NetEaseNews-Swift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E5104D8EC5E03E6232CA39EAE790CF11D428A05B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E5104D8EC5E03E6232CA39EAE790CF11D428A05B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NetEaseNews-Swift</string>
+		</dict>
+	</array>
+</dict>
+</plist>
