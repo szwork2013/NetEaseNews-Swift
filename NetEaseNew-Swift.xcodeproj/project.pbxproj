@@ -12,8 +12,8 @@
 		CF62880A1AA33E7B006AF4C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6288061AA33E7B006AF4C8 /* Images.xcassets */; };
 		CF62880B1AA33E7B006AF4C8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF6288071AA33E7B006AF4C8 /* Info.plist */; };
 		CF62881E1AA33FBC006AF4C8 /* LWBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF62881D1AA33FBC006AF4C8 /* LWBaseViewController.swift */; };
-		CF6288201AA340E3006AF4C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF62881F1AA340E3006AF4C8 /* Main.storyboard */; };
 		CF6288281AA342BA006AF4C8 /* LWHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6288271AA342BA006AF4C8 /* LWHomeViewController.swift */; };
+		CF62882A1AA34C28006AF4C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF6288291AA34C28006AF4C8 /* Main.storyboard */; };
 		CFFD3EC71AA3334B00C277A2 /* NetEaseNew_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD3EC61AA3334B00C277A2 /* NetEaseNew_SwiftTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,8 +36,8 @@
 		CF6288071AA33E7B006AF4C8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Other/Info.plist; sourceTree = "<group>"; };
 		CF6288081AA33E7B006AF4C8 /* News-Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "News-Bridge.h"; path = "Other/News-Bridge.h"; sourceTree = "<group>"; };
 		CF62881D1AA33FBC006AF4C8 /* LWBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LWBaseViewController.swift; sourceTree = "<group>"; };
-		CF62881F1AA340E3006AF4C8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../Base/View/Main.storyboard; sourceTree = "<group>"; };
 		CF6288271AA342BA006AF4C8 /* LWHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LWHomeViewController.swift; sourceTree = "<group>"; };
+		CF6288291AA34C28006AF4C8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CFFD3EAB1AA3334A00C277A2 /* NetEaseNew-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NetEaseNew-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFFD3EC01AA3334B00C277A2 /* NetEaseNew-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NetEaseNew-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFFD3EC51AA3334B00C277A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -245,7 +245,7 @@
 		CF6288241AA341F1006AF4C8 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CF62881F1AA340E3006AF4C8 /* Main.storyboard */,
+				CF6288291AA34C28006AF4C8 /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -390,7 +390,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF6288201AA340E3006AF4C8 /* Main.storyboard in Resources */,
+				CF62882A1AA34C28006AF4C8 /* Main.storyboard in Resources */,
 				CF62880B1AA33E7B006AF4C8 /* Info.plist in Resources */,
 				CF62880A1AA33E7B006AF4C8 /* Images.xcassets in Resources */,
 			);
