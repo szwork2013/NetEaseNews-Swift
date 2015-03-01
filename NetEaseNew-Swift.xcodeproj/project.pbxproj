@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		84C80E40374B34CE5E332B7C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A544F1CD53D620DC1479D0FE /* libPods.a */; };
-		CFFD3EB11AA3334A00C277A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD3EB01AA3334A00C277A2 /* AppDelegate.swift */; };
-		CFFD3EB31AA3334A00C277A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD3EB21AA3334A00C277A2 /* ViewController.swift */; };
-		CFFD3EB61AA3334A00C277A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFFD3EB41AA3334A00C277A2 /* Main.storyboard */; };
-		CFFD3EB81AA3334A00C277A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFFD3EB71AA3334A00C277A2 /* Images.xcassets */; };
-		CFFD3EBB1AA3334A00C277A2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFFD3EB91AA3334A00C277A2 /* LaunchScreen.xib */; };
+		CF6288091AA33E7B006AF4C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6288051AA33E7B006AF4C8 /* AppDelegate.swift */; };
+		CF62880A1AA33E7B006AF4C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6288061AA33E7B006AF4C8 /* Images.xcassets */; };
+		CF62880B1AA33E7B006AF4C8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF6288071AA33E7B006AF4C8 /* Info.plist */; };
+		CF62881E1AA33FBC006AF4C8 /* LWBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF62881D1AA33FBC006AF4C8 /* LWBaseViewController.swift */; };
+		CF6288201AA340E3006AF4C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF62881F1AA340E3006AF4C8 /* Main.storyboard */; };
+		CF6288281AA342BA006AF4C8 /* LWHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6288271AA342BA006AF4C8 /* LWHomeViewController.swift */; };
 		CFFD3EC71AA3334B00C277A2 /* NetEaseNew_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD3EC61AA3334B00C277A2 /* NetEaseNew_SwiftTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,17 +31,17 @@
 		05132E799385E9807C488458 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		3A6A8599F2438C02B80534EA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A544F1CD53D620DC1479D0FE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6288051AA33E7B006AF4C8 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Other/AppDelegate.swift; sourceTree = "<group>"; };
+		CF6288061AA33E7B006AF4C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Other/Images.xcassets; sourceTree = "<group>"; };
+		CF6288071AA33E7B006AF4C8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Other/Info.plist; sourceTree = "<group>"; };
+		CF6288081AA33E7B006AF4C8 /* News-Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "News-Bridge.h"; path = "Other/News-Bridge.h"; sourceTree = "<group>"; };
+		CF62881D1AA33FBC006AF4C8 /* LWBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LWBaseViewController.swift; sourceTree = "<group>"; };
+		CF62881F1AA340E3006AF4C8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../Base/View/Main.storyboard; sourceTree = "<group>"; };
+		CF6288271AA342BA006AF4C8 /* LWHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LWHomeViewController.swift; sourceTree = "<group>"; };
 		CFFD3EAB1AA3334A00C277A2 /* NetEaseNew-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NetEaseNew-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFFD3EAF1AA3334A00C277A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CFFD3EB01AA3334A00C277A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CFFD3EB21AA3334A00C277A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CFFD3EB51AA3334A00C277A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CFFD3EB71AA3334A00C277A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		CFFD3EBA1AA3334A00C277A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CFFD3EC01AA3334B00C277A2 /* NetEaseNew-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NetEaseNew-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFFD3EC51AA3334B00C277A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFFD3EC61AA3334B00C277A2 /* NetEaseNew_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetEaseNew_SwiftTests.swift; sourceTree = "<group>"; };
-		CFFD3ED01AA334E500C277A2 /* News-Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "News-Bridge.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,176 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CF62880C1AA33F00006AF4C8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CF6288211AA341F1006AF4C8 /* Home */,
+				CF62880D1AA33F00006AF4C8 /* Base */,
+				CF6288111AA33F00006AF4C8 /* Channel */,
+				CF6288151AA33F00006AF4C8 /* Navigation */,
+				CF6288191AA33F00006AF4C8 /* NewsList */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CF62880D1AA33F00006AF4C8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CF62880E1AA33F00006AF4C8 /* Controller */,
+				CF62880F1AA33F00006AF4C8 /* Model */,
+				CF6288101AA33F00006AF4C8 /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CF62880E1AA33F00006AF4C8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CF62881D1AA33FBC006AF4C8 /* LWBaseViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF62880F1AA33F00006AF4C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF6288101AA33F00006AF4C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF6288111AA33F00006AF4C8 /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				CF6288121AA33F00006AF4C8 /* Controller */,
+				CF6288131AA33F00006AF4C8 /* Model */,
+				CF6288141AA33F00006AF4C8 /* View */,
+			);
+			path = Channel;
+			sourceTree = "<group>";
+		};
+		CF6288121AA33F00006AF4C8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF6288131AA33F00006AF4C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF6288141AA33F00006AF4C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF6288151AA33F00006AF4C8 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				CF6288161AA33F00006AF4C8 /* Controller */,
+				CF6288171AA33F00006AF4C8 /* Model */,
+				CF6288181AA33F00006AF4C8 /* View */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		CF6288161AA33F00006AF4C8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF6288171AA33F00006AF4C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF6288181AA33F00006AF4C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF6288191AA33F00006AF4C8 /* NewsList */ = {
+			isa = PBXGroup;
+			children = (
+				CF62881A1AA33F00006AF4C8 /* Controller */,
+				CF62881B1AA33F00006AF4C8 /* Model */,
+				CF62881C1AA33F00006AF4C8 /* View */,
+			);
+			path = NewsList;
+			sourceTree = "<group>";
+		};
+		CF62881A1AA33F00006AF4C8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF62881B1AA33F00006AF4C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF62881C1AA33F00006AF4C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF6288211AA341F1006AF4C8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CF6288221AA341F1006AF4C8 /* Controller */,
+				CF6288231AA341F1006AF4C8 /* Model */,
+				CF6288241AA341F1006AF4C8 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CF6288221AA341F1006AF4C8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CF6288271AA342BA006AF4C8 /* LWHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF6288231AA341F1006AF4C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CF6288241AA341F1006AF4C8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF62881F1AA340E3006AF4C8 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		CFFD3EA21AA3334A00C277A2 = {
 			isa = PBXGroup;
 			children = (
@@ -102,11 +273,7 @@
 		CFFD3EAD1AA3334A00C277A2 /* NetEaseNew-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				CFFD3EB01AA3334A00C277A2 /* AppDelegate.swift */,
-				CFFD3EB21AA3334A00C277A2 /* ViewController.swift */,
-				CFFD3EB41AA3334A00C277A2 /* Main.storyboard */,
-				CFFD3EB71AA3334A00C277A2 /* Images.xcassets */,
-				CFFD3EB91AA3334A00C277A2 /* LaunchScreen.xib */,
+				CF62880C1AA33F00006AF4C8 /* Classes */,
 				CFFD3EAE1AA3334A00C277A2 /* Supporting Files */,
 			);
 			path = "NetEaseNew-Swift";
@@ -115,8 +282,10 @@
 		CFFD3EAE1AA3334A00C277A2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CFFD3EAF1AA3334A00C277A2 /* Info.plist */,
-				CFFD3ED01AA334E500C277A2 /* News-Bridge.h */,
+				CF6288051AA33E7B006AF4C8 /* AppDelegate.swift */,
+				CF6288061AA33E7B006AF4C8 /* Images.xcassets */,
+				CF6288071AA33E7B006AF4C8 /* Info.plist */,
+				CF6288081AA33E7B006AF4C8 /* News-Bridge.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -184,8 +353,9 @@
 		CFFD3EA31AA3334A00C277A2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LW;
 				LastUpgradeCheck = 0630;
-				ORGANIZATIONNAME = wangshiyu13;
+				ORGANIZATIONNAME = LLWW;
 				TargetAttributes = {
 					CFFD3EAA1AA3334A00C277A2 = {
 						CreatedOnToolsVersion = 6.3;
@@ -220,9 +390,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFFD3EB61AA3334A00C277A2 /* Main.storyboard in Resources */,
-				CFFD3EBB1AA3334A00C277A2 /* LaunchScreen.xib in Resources */,
-				CFFD3EB81AA3334A00C277A2 /* Images.xcassets in Resources */,
+				CF6288201AA340E3006AF4C8 /* Main.storyboard in Resources */,
+				CF62880B1AA33E7B006AF4C8 /* Info.plist in Resources */,
+				CF62880A1AA33E7B006AF4C8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +443,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFFD3EB31AA3334A00C277A2 /* ViewController.swift in Sources */,
-				CFFD3EB11AA3334A00C277A2 /* AppDelegate.swift in Sources */,
+				CF6288281AA342BA006AF4C8 /* LWHomeViewController.swift in Sources */,
+				CF6288091AA33E7B006AF4C8 /* AppDelegate.swift in Sources */,
+				CF62881E1AA33FBC006AF4C8 /* LWBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +466,6 @@
 			targetProxy = CFFD3EC11AA3334B00C277A2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		CFFD3EB41AA3334A00C277A2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CFFD3EB51AA3334A00C277A2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CFFD3EB91AA3334A00C277A2 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CFFD3EBA1AA3334A00C277A2 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CFFD3EC81AA3334B00C277A2 /* Debug */ = {
@@ -402,10 +554,10 @@
 			baseConfigurationReference = 3A6A8599F2438C02B80534EA /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "NetEaseNew-Swift/Info.plist";
+				INFOPLIST_FILE = "NetEaseNew-Swift/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "NetEaseNew-Swift/News-Bridge.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "NetEaseNew-Swift/Other/News-Bridge.h";
 			};
 			name = Debug;
 		};
@@ -414,10 +566,10 @@
 			baseConfigurationReference = 05132E799385E9807C488458 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "NetEaseNew-Swift/Info.plist";
+				INFOPLIST_FILE = "NetEaseNew-Swift/Other/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "NetEaseNew-Swift/News-Bridge.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "NetEaseNew-Swift/Other/News-Bridge.h";
 			};
 			name = Release;
 		};

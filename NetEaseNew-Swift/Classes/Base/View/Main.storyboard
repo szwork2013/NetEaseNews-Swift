@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7519.1" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="pmi-TL-LGV">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7513.1"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Ins-cC-9gZ">
+            <objects>
+                <navigationController id="pmi-TL-LGV" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="s1i-gZ-OX2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="4An-0w-7ep" kind="relationship" relationship="rootViewController" id="THy-Wv-zdO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ybg-4e-dpW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-169" y="491"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="NnZ-1g-vy9">
+            <objects>
+                <viewController id="4An-0w-7ep" customClass="LWHomeViewController" customModule="NetEaseNew_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7Kb-Zg-6Yj"/>
+                        <viewControllerLayoutGuide type="bottom" id="Saf-Ob-Ev4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0al-d0-G9e">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fr0-8m-bAb">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="101-68-oJ7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8BK-BO-Zb7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="469" y="491"/>
+        </scene>
+    </scenes>
+</document>
